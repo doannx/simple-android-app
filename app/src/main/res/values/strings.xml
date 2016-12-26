@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CVS</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="category">
+        <item>high blood pressure</item>
+        <item>pain relief</item>
+    </string-array>
+
+    <string-array name="menu">
+        <item>Home</item>
+        <item>Add New Brand</item>
+    </string-array>
+
+    <string name="title_activity_add_function">AddFunctionActivity</string>
+
+</resources>

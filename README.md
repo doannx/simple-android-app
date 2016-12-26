@@ -1,0 +1,5 @@
+[![Slide Menu](https://github.com/doannx/simple-android-app/blob/master/screenshot/TestResult.png)](#features)
+[![Main Screen](https://github.com/doannx/simple-android-app/blob/master/screenshot/MainScreen.png)](#features)
+[![Slide Menu](https://github.com/doannx/simple-android-app/blob/master/screenshot/SlideMenu.png)](#features)
+[![Slide Menu](https://github.com/doannx/simple-android-app/blob/master/screenshot/AddNewBrand.png)](#features)
+[![Slide Menu](https://github.com/doannx/simple-android-app/blob/master/screenshot/AddNewFunction.png)](#features)

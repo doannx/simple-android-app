@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -45,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements NoticeDialogFragm
 
     private int selectedCategoryId;
     private int selectedInfoKind;
+
+    private Drawable oldBackground;
 
     BusinessService service = new BusinessService();
 
@@ -210,7 +213,8 @@ public class MainActivity extends AppCompatActivity implements NoticeDialogFragm
             text.setLayoutParams(layoutParams);
             text.setMaxLines(1);
             text.setImeOptions(1);
-
+            text.setBackgroundColor(Color.LTGRAY);
+            text.setTextColor(Color.BLACK);
             tableRow.addView(text);
             tableLayout.addView(tableRow);
         }
